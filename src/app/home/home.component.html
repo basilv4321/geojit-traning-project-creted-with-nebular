@@ -1,0 +1,33 @@
+
+<!-- <header>
+    <app-navbar [data]="myngOnChangeData" ></app-navbar>
+</header>
+
+<main>
+    <app-sidebar></app-sidebar>
+    <router-outlet></router-outlet>
+</main> -->
+
+
+<!-- <nb-layout center>
+    <nb-layout-header>Awesome Company</nb-layout-header>
+  
+    <nb-layout-column>
+      Hello World!
+    </nb-layout-column>
+  
+    <nb-layout-footer>Contact us</nb-layout-footer>
+  </nb-layout> -->
+
+
+  <nb-layout>
+    <nb-layout-header subheader>
+      <a href="#" ><i class="nb-menu"></i></a>
+      <app-navbar [data]="myngOnChangeData" ></app-navbar>
+    </nb-layout-header>
+
+<nb-layout-column >
+    <app-sidebar></app-sidebar>
+    <router-outlet></router-outlet>
+</nb-layout-column> 
+  </nb-layout>
